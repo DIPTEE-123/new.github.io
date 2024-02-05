@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title> Login Page</title>
+        <style>
+            Body{
+                font-family: Calibri, Helvetica, sans-serif;
+                background-color:pink;
+
+            }
+            button{
+                background-color: #2db331;
+                width:100%;
+                color:orange;
+                padding:15px;
+                margin:10px 0px;
+                border:none;
+                cursor:pointer;
+            }
+            form{
+                border:3px solid #f1f1f1;
+            }
+            .container{
+                padding:25px;
+                background-color:lightblue;
+            }
+ </style>
+    </head>
+    <body>
+        <center>
+            <h1> Student Login Form</h1>
+        </center>
+        <form>
+            <div class= "container">
+                <label>Username:</label>
+                <input type="text" placeholder="Enter username"name="username"required>
+                <label> password:</label>
+                <input type="password"placeholder="Enter password"name="password"required>
+                <button type="submit"> Login</button>
+                <input type="checkbox"checked="checked">Remember me 
+                <button type="button"class="cancelbtn">cancel</button>
+                    Forgot <a href="#"> password?</a>
+            </div>
+        </form>
+    </body>
+</html>
